@@ -1,12 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
+    background-image: url("images/calc.png");
+    background-size: cover;
 }
 
 #container {
     width: 1000px;
     height: 550px;
-    background-color: rgb(192, 106, 106);
     margin: 20px auto;
 }
 
@@ -73,7 +73,7 @@ body {
     outline: 0;
 }
 
-#clear, #backspace, #percent {
+#clear, #backspace {
     background-color: rgb(209, 200, 200);
 }
 
@@ -100,4 +100,23 @@ button:nth-child(16){
 button:nth-child(20){
     font-size: 20px;
     background-color: #9477af;
+}
+.footer {
+    color: #0e2431;
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    font-weight: 400;
+}
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.footer__socail {
+    margin-bottom: 2rem;
+}
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem;
 }
