@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url("images/calc.webp");
-    background-size: cover;
+    background-image: url("images/bg.jpg");
+    background-size: contain;
 }
 
 #container {
@@ -11,8 +11,8 @@ body {
 }
 
 #calculator {
-    width: 320px;
-    height: 520px;
+    width: 340px;
+    height: 550px;
     background-color: #eaedef;
     margin: 0 auto;
     top: 20px;
@@ -102,7 +102,7 @@ button:nth-child(20){
     background-color: #9477af;
 }
 .footer {
-    color: #fff;
+    color: indigo;
     text-align: center;
     padding: 2rem 0;
     border-radius: 1rem;
@@ -117,6 +117,6 @@ button:nth-child(20){
 }
 .footer__icon {
     font-size: 1.5rem;
-    color: #fff;
+    color: indigo;
     margin: 1rem;
 }
